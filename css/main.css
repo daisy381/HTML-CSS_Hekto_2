@@ -12,6 +12,11 @@ html, body{
     margin: 0%;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 /*FONTS*/
 
 /* Poppins-Black - latin */
@@ -131,6 +136,42 @@ html, body{
     url('../fonts/Poppins-ThinItalic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+    url('../fonts/lato-v17-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lato-v17-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/lato-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lato-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-700 - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('../fonts/lato-v17-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lato-v17-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-900 - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+    url('../fonts/lato-v17-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lato-v17-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 /*Welcome page*/
 .welcome{
     position: absolute;
@@ -204,3 +245,92 @@ html, body{
     height: 587px;
     top: 505px;
 }
+
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    width: 100%;
+    height: 44px;
+    left: 0;
+    top: 0;
+    background: #7E33E0;
+}
+
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_contact_us{
+    display: inherit;
+    padding-top: 12px;
+    padding-right: 300px;
+}
+
+.header_email{
+    display: inherit;
+    padding-right: 36px;
+}
+.header_email_icon{
+    height: 16px;
+    width: 16px;
+    padding-right: 12px;
+}
+
+.header_email_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.header_phone{
+    display:inherit;
+}
+
+.header_phone_icon{
+    height: 16px;
+    width: 16px;
+    padding-right: 12px;
+}
+
+.header_phone_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.header_config{
+    display: inherit;
+    padding-top: 12px;
+}
+
+.header_config_each{
+    display: inherit;
+    padding-right: 10px;
+}
+
+.header_config_each_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #F1F1F1;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+
+.header_config_each_icon{
+    padding-top: 3px;
+}
+
