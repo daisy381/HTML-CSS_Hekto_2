@@ -438,7 +438,6 @@ a {
 }
 
 .navbar_logo{
-    margin-left: 50px;
     height: 34px;
     width: 98px;
     font-family: 'Josefin Sans';
@@ -608,8 +607,29 @@ a {
     color: #FFFFFF;
 }
 
+.slider_slide{
+    position: absolute;
+    display: inherit;
+    bottom: 20px;
+    left:50%;
+    height: 14px;
+    width: 66px;
+}
+
+.slider_slide_box{
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border: 1px solid #FB2E86;
+    box-sizing: border-box;
+    transform: rotate(-45deg);
+}
+
 /*Feature styles*/
 
+.features{
+    height: 708px;
+}
 .features_title{
     padding-top: 130px;
     text-align: center;
@@ -669,8 +689,41 @@ a {
     line-height: 22px;
 }
 
+.features_item_colors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 6px;
+    padding-top: 12px;
+}
+
+.features_item_color_g{
+    width: 20px;
+    height: 6px;
+    background: #05E6B7;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+.features_item_color_p{
+    width: 20px;
+    height: 6px;
+    background: #F701A8;
+    border-radius: 10px;
+    margin-right: 8px;
+
+}
+.features_item_color_y{
+    width: 20px;
+    height: 6px;
+    background: #ffde29;
+    border-radius: 10px;
+    margin-right: 8px;
+
+}
+
 .features_item_code{
-    padding: 28px 79px 0 79px;
+    padding: 20px 79px 0 79px;
     color: #151875;
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -693,14 +746,51 @@ a {
     padding-right: 0;
 }
 
+.features_slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 53px;
+}
 
-@media screen and (min-width: 1440px){
+.features_slider_color{
+    display: inherit;
+    width: 42px;
+    height: 12px;
+    background: #FEBAD7;
+    border-radius: 10px;
+    margin-right: 7px;
+}
+
+
+@media screen and (min-width: 1860px){
     .wrapper{
-        max-width: 1440px;
+        max-width: 1240px;
     }
 
     .header_contact_us{
         padding-left: 45px;
+        padding-right: 100px;
+    }
+
+    .header_config{
+        padding-left: 360px ;
+    }
+
+    .navbar_wrapper{
+        padding-left: 30px;
+    }
+
+    .navbar_list{
+        margin-left: 100px;
+    }
+
+    .nav_item:last-child{
+        margin-right: 0;
+    }
+
+    .nav_input{
+        margin-left: 215px;
     }
 
     .slider_lamp {
@@ -722,7 +812,11 @@ a {
     }
 
     .slider_sale{
-        padding-left: 150px;
+        padding-left: 120px;
+    }
+
+    .features_item{
+        padding-right: 1px;
     }
 
 }
