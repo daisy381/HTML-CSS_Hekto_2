@@ -430,6 +430,7 @@ a {
 /*Navbar styles*/
 .navbar{
     height: 78px;
+    background: #FAFAFA;
 }
 
 .navbar_wrapper{
@@ -629,6 +630,7 @@ a {
 
 .features{
     height: 708px;
+    background: #FAFAFA;
 }
 .features_title{
     padding-top: 130px;
@@ -765,6 +767,7 @@ a {
 
 /*Latest Product styles*/
 .latest_product{
+    background: #FAFAFA;
     text-align: center;
     height: 1000px;
 }
@@ -818,7 +821,7 @@ a {
     height: 270px;
     width: 360px;
     border-radius: 0;
-    background: #F7F7F7;
+    background: #F1F0F0;
 }
 
 .latest_product_item_pic{
@@ -826,7 +829,7 @@ a {
     width: 260px;
     height: 229px;
     border-radius: 0;
-    background: #F7F7F7;
+    background: #F1F0F0;
 }
 
 .latest_product_desc{
@@ -872,6 +875,403 @@ a {
     border: 2px solid #EEEFFB;
     border-radius: 2px;
     right: 28%;
+}
+
+
+/*Offer styles*/
+.offer{
+    width: 100%;
+    height: 625px;
+    background: #FAFAFA;
+}
+
+.offer_title{
+    width: 400px;
+    height: 42px;
+    margin: 0 auto 55px auto;
+}
+
+.offer_title_text{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    line-height: 49px;
+    font-weight: bold;
+    color: #151875;
+}
+
+.offer_cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.offer_card{
+    background: #FFFFFF;
+    width: 270px;
+    height: 320px;
+}
+
+.offer_card_image{
+    margin: 56px 102px 27px 102px;
+    width: 65px;
+    height: 65px;
+}
+
+.offer_card_desc{
+    margin: 0 27px;
+}
+
+.offer_card_title_text{
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    line-height: 26px;
+    color: #151875;
+    text-align: center;
+}
+
+.offer_card_desc_text{
+    margin-top: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(26, 11, 91, 0.3);
+}
+
+/*Unique Features Of latest & Trending Products*/
+
+.unique_features{
+    background: #F1F0FF;
+    width: 100%;
+    height: 580px;
+}
+
+.unique_features_content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.unique_features_content_image{
+    position: relative;
+    width: 558px;
+    height: 550px;
+}
+
+.unique_features_content_image_sofa{
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    z-index: 1;
+}
+
+.unique_features_content_image_ellipse{
+    position: absolute;
+    top: 37px;
+}
+
+.unique_features_content_desc{
+    width: 507px;
+}
+
+.unique_features_content_desc_title{
+    margin-top: 100px;
+    font-family: 'Josefin Sans';
+    font-size: 35px;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+    color: #151875;
+}
+
+.unique_features_content_desc_lists{
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+
+.unique_features_content_desc_list_1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+    color: #ACABC3;
+    margin-bottom: 13px;
+}
+
+.unique_features_content_desc_list_2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+    color: #ACABC3;
+    margin-bottom: 13px;
+}
+
+.unique_features_content_desc_list_3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132%;
+    letter-spacing: 0.015em;
+    color: #ACABC3;
+}
+
+.unique_features_content_desc_list_1::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.unique_features_content_desc_list_2::before{
+    content: "\2022";
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.unique_features_content_desc_list_3::before{
+    content: "\2022";
+    color: green;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.unique_features_content_desc_group{
+    display: flex;
+    flex-direction: row;
+    margin-top: 38px;
+}
+
+.unique_features_content_desc_button{
+    width: 157px;
+    height: 57px;
+    font-family: 'Josefin Sans';
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #FB2E86;
+    border: none;
+    border-radius: 2px;
+}
+
+.unique_features_content_desc_price{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.unique_features_content_desc_price_name{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #151875;
+}
+
+.unique_features_content_desc_price_p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #151875;
+}
+
+/*Trending styles*/
+
+.trends{
+    background: #FAFAFA;
+    width: 100%;
+    height: 1000px;
+}
+
+.trends_title{
+    padding-top: 132px;
+    width: 365px;
+    height: 42px;
+    margin: 0 auto 0 auto;
+}
+
+.trends_title_text{
+    font-family: 'Josefin Sans';
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 49px;
+    color: #151875;
+}
+
+.trends_lists{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.trends_list{
+    display: inherit;
+    flex-direction: column;
+    width: 270px;
+    height: 350px;
+    background: #FFFFFF;
+}
+
+.trends_list_image{
+    padding: 11px;
+}
+
+.trends_list_title{
+    margin-top: 15px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #151875;
+}
+
+.trends_list_price{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.trends_list_sale-price{
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #151875;
+}
+
+.trends_list_current-price{
+    margin-left: 10px;
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: rgba(21, 24, 117, 0.3);
+}
+
+.trends_items{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.trends_item_1{
+    width: 420px;
+    height: 270px;
+    background: #FFF6FB;
+    position: relative;
+}
+
+.trends_item_desc{
+    margin-top: 34px;
+    margin-left: 25px;
+    width: 270px;
+    height: 56px;
+}
+
+.trends_item_title{
+    font-family: 'Josefin Sans';
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #151875;
+}
+
+.trends_item_link{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FB2E86;
+}
+
+.trends_item_img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.trends_item_2{
+    position: relative;
+    width: 420px;
+    height: 270px;
+    background: #EEEFFB;
+    box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05);
+}
+
+.trends_item_3_lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 267px;
+    height: 270px;
+}
+
+.trends_item_3_list{
+    display: flex;
+    flex-direction: row;
+}
+
+.trends_item_3_pic{
+    background: #F5F6F8;
+    height: 74px;
+    width: 107px;
+    border-radius: 0;
+}
+
+.trends_item_3_list_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trends_item_3_list_desc{
+    display: inherit;
+    flex-direction: column;
+    margin-top: 21px;
+}
+
+.trends_item_3_list_desc_title{
+    font-family: 'Josefin Sans';
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #151875;
+}
+
+.trends_item_3_list_desc_price{
+    font-family: 'Josefin Sans';
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: line-through;
+    color: #151875;
 }
 
 
